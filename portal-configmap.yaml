@@ -4,4 +4,4 @@ metadata:
   name: portal-configmap
 data:
   env:
-  IP_SISTEMA: http://192.168.59.101:30001
+  IP_SISTEMA: 
