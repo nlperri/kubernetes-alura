@@ -1,3 +1,1 @@
-# kubernetes-alura-1
-
-![table](./assets/diagram.png)
+# kubernetes-alura
