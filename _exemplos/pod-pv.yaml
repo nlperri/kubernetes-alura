@@ -1,0 +1,17 @@
+# exemplo para o GCP
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-sc
+spec:
+  containers:
+    - name: nginx-container
+      image: nginx:latest
+      volumeMounts:
+        - mountPath: /volume-dentro-do-container
+          name: primeiro-sc
+  volumes:
+    - name: primeiro-sc
+      persistentVolumeClaim:
+        claimName: pvc-2
