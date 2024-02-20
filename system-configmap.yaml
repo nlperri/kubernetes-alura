@@ -3,8 +3,7 @@ kind: ConfigMap
 metadata:
   name: system-configmap
 data:
-  env:
-  HOST_DB: 
-  USER_DB: 
-  PASS_DB: 
-  DATABASE_DB: 
+  HOST_DB: svc-db-news:3306
+  USER_DB: root
+  PASS_DB: q1w2e3r4
+  DATABASE_DB: empresa

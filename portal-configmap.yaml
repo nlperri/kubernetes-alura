@@ -4,4 +4,4 @@ metadata:
   name: portal-configmap
 data:
   env:
-  IP_SISTEMA: 
+  IP_SISTEMA: http://localhost:30001
